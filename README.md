@@ -1,4 +1,4 @@
-# Penguin 2.0 Dark
+# Penguin 2.0 Light
 
 A minimalistic light theme for [Ghost](https://ghost.org/).
 
