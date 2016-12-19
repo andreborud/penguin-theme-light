@@ -1,6 +1,6 @@
 {
-	"name": "Penguin Light",
-	"version": "2.0",
+	"name": "PenguinLight",
+	"version": "2.0.0",
 	"author": "André Borud",
-	"description": ""
+	"description": "A simple lightweight html & css based theme for Ghost with the javascript addition of highlight.js"
 }
