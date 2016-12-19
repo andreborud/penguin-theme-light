@@ -6,7 +6,7 @@ The main idea for the menu is to use tags as the links as well as for static pag
 
 ## Installation
 
-1. [Download theme](https://github.com/andreborud/penguin-theme-dark/archive/master.zip).
+1. [Download theme](https://github.com/andreborud/penguin-theme-light/archive/master.zip).
 2. Edit `partials/about.hbs` to add your own description of your blog.
 3. Edit `partials/social.hbs` to set your links to other places to follow you.
 4. Upload the theme as described in the [Ghost Documentation](https://help.ghost.org/hc/en-us/articles/223241628-Uploading-Themes).
