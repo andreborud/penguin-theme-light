@@ -1,4 +1,4 @@
-# Penguin 2.0.1 Light
+# Penguin 2.1.0 Light
 
 A minimalistic theme for [Ghost](https://ghost.org/). Based only on html and css to make it as lightweight as possible with the exception of [highlight.js](https://highlightjs.org/) for any code blocks.
 
