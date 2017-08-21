@@ -1,10 +1,12 @@
-# Penguin 2.1.1 Light
+# Penguin 2.2.0 Light
 
 A minimalistic theme for [Ghost](https://ghost.org/). Based only on html and css to make it as lightweight as possible with the exception of [highlight.js](https://highlightjs.org/) for any code blocks.
 
 The main idea for the menu is to use tags as the links as well as for static pages or external urls.
 
 Updated to support Ghost 1.0+
+
+Min. Ghost version 1.2.0
 
 ## Installation
 

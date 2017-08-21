@@ -19,7 +19,8 @@ article.post section h1,
 nav.social p  a,
 nav#navigation a,
 article.post section .intro,
-article.post section .post-title a,
+article.post section .post-title,
+article.post section .tags,
 footer a,
 h1,
 h2,
@@ -33,10 +34,10 @@ button {
 
 h6,
 nav.social p,
-article.post section .tags,
+article.post section .tags span,
 article.post section .post-date,
 footer {
-    color: #62315d;
+    color: #cc79c4;
 }
 
 main#posts article.post section {
@@ -44,7 +45,7 @@ main#posts article.post section {
 }
 
 a {
-    color: #393853;
+    color: #cc79c4;
 }
 
 a del {
@@ -60,11 +61,11 @@ main#posts article.post section .post-title a:hover,
 footer a:hover,
 main#posts article div.adjuster:hover section p.tags a:hover,
 main#posts article div.adjuster:hover section h3.post-title a:hover {
-    color: #393853;
+    color: #b53da9;
 }
 
-::selection { background: #62315d; color: #fff; }
-::-moz-selection { background: #62315d; color: #fff; }
+::selection { background: #cc79c4; color: #fff; }
+::-moz-selection { background: #cc79c4; color: #fff; }
 
 hr {
     border: none;
@@ -72,12 +73,13 @@ hr {
 }
 
 section.subscribe div button {
-    background: #62315d;
+    background: #cc79c4;
     border: none;
+	color: white;
 }
 
 section.subscribe div .form-group .subscribe-email {
-    border: 1px solid #62315d;
+    border: 1px solid #cc79c4;
     background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -87,15 +89,15 @@ input:focus {
 }
 
 section.subscribe div button:hover {
-    background: #393853;
+    background: #b53da9;
 }
 
 section.subscribe div button:active {
-    background: #393853;
+    background: #b53da9;
 }
 
 main#posts article.post .borderbox .triangle {
-	border-top: 70px solid #62315d;
+	border-top: 70px solid #cc79c4;
 	border-left: 70px solid transparent;
 }
 
@@ -106,7 +108,7 @@ main#posts article.post .borderbox {
 
 main#posts article.post:hover .borderbox {
     box-sizing: border-box;
-    border: 3px solid #62315d;
+    border: 3px solid #cc79c4;
 }
 
 main#posts article.post .borderbox .triangle div {
@@ -185,7 +187,7 @@ main.post-container--single article section.content p {
 }
 
 main.post-container--single article section.content p.tags {
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 summary.about {
@@ -304,43 +306,42 @@ main#posts article div.adjuster section {
 }
 
 main#posts article div.adjuster div.background {
-    opacity: 0.675;
+    opacity: 0.5;
     transition: opacity 256ms;
     background-size: cover;
 	background-position: center center;
 }
 
 main#posts article div.adjuster:hover div.background {
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 main#posts article.post section {
     display: flex;
     flex-direction: column;
+	box-sizing: border-box;
+	padding: 32px;
 }
 
 main#posts article.post section h1 {
-    margin: 32px;
+	margin: 0;
+	flex-grow: 2;
 }
 
 main#posts article.post section time {
     margin-bottom: 4px;
+	display: table;
 }
 
 main#posts article.post section .post-title,
 main#posts article.post section .intro {
     margin: 0 0 12px 0;
+	display: table;
 }
 
 main#posts article.post section .tags {
     margin: 0;
-}
-
-main#posts article.post section .content-container {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 32px;
-    flex-grow: 2;
+	display: table;
 }
 
 main#posts article.post .borderbox {
