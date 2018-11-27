@@ -1,18 +1,18 @@
-# Penguin 2.2.0 Light
+# Penguin 2.3.1 Light
 
 A minimalistic theme for [Ghost](https://ghost.org/). Based only on html and css to make it as lightweight as possible with the exception of [highlight.js](https://highlightjs.org/) for any code blocks.
 
 The main idea for the menu is to use tags as the links as well as for static pages or external urls.
 
-Updated to support Ghost 1.0+
+Updated to support Ghost 2.0+
 
-Min. Ghost version 1.2.0
+Min. Ghost version 2.0
 
 ## Installation
 
 1. [Download theme](https://github.com/andreborud/penguin-theme-light/archive/master.zip).
-2. Edit `partials/about.hbs` to add your own description of your blog.
-3. Edit `partials/social.hbs` to set your links to other places to follow you.
+2. Create a page and change the url to `landing` and put your landing page content here. 
+2. Create a page and change the url to `social` and put your link to social media here. 
 4. Upload the theme as described in the [Ghost Documentation](https://help.ghost.org/hc/en-us/articles/223241628-Uploading-Themes).
 5. Upload a logo for your blog in the Ghost general Admin area.
 6. Add a menu based on tags or static pages.
